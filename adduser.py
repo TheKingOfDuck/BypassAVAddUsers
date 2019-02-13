@@ -7,8 +7,6 @@ import win32gui
 import win32api
 import win32con
 os.system("net user")
-screenWidth, screenHeight = pyautogui.size()
-currentMouseX, currentMouseY = pyautogui.position()
 
 #输出MMCMainFrame的窗口名称
 MMCMainFrame = win32gui.FindWindow("MMCMainFrame", None)
@@ -132,7 +130,6 @@ win32api.keybd_event(0x12,0,0,0)
 win32api.keybd_event(0x46,0,0,0) 
 win32api.keybd_event(0x12,0,win32con.KEYEVENTF_KEYUP,0)
 win32api.keybd_event(0x46,0,win32con.KEYEVENTF_KEYUP,0) 
-
 
 #发送X键
 win32api.keybd_event(0x58,0,0,0) 
