@@ -31,10 +31,8 @@ cd "C:/Program Files/360/360safe/" & start uninst.exe
 
 新建一个bat再用start来启动就可以绕过了
 
-<iframe width="560" height="315" src="http://v.youku.com/v_show/id_XNDA1NzEyMzkyMA==.html?spm=a2h3j.8428770.3416059.1" frameborder="0" allowfullscreen></iframe>
+http://v.youku.com/v_show/id_XNDA1NzEyMzkyMA==.html?spm=a2h3j.8428770.3416059.1
 
-
-（原视频在附件压缩包）
 
 如视频所示 模拟点击处最终确认按钮后无法点击 
 
@@ -74,7 +72,7 @@ pywin32：
 start python.exe -m pip install pywin32
 ```
 
-执行完所有需要的依赖也就安装好了 无需GUi即可完成。
+执行完所有需要的依赖也就安装好了 无需GUI即可完成。
 
 ### 0x03 AddUsers
 
@@ -130,16 +128,12 @@ https://github.com/TheKingOfDuck/BypassAVAddUsers/blob/master/adduser.py
 
 ### 0x03 Test
 
-360全家桶 安全狗 D盾 ：
-
-原视频在附件压缩包： 
+360全家桶 安全狗 D盾等AV ：
 
 
-<iframe width="560" height="315" src="http://v.youku.com/v_show/id_XNDA1NzEyMzkyMA==.html?spm=a2h3j.8428770.3416059.1" frameborder="0" allowfullscreen></iframe>
 
-（原视频在附件压缩包）
+http://v.youku.com/v_show/id_XNDA1NzEyMzkyMA==.html?spm=a2h3j.8428770.3416059.1
 
-（云锁要求必须在服务区上安装 故没测试）
 
 ### 0x03 Summary
 
