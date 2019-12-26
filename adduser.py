@@ -101,7 +101,7 @@ def inputPassword():
   win32api.keybd_event(0x62,0,win32con.KEYEVENTF_KEYUP,0)
   win32api.keybd_event(0xBE,0,0,0)
   win32api.keybd_event(0xBE,0,win32con.KEYEVENTF_KEYUP,0)
-  #coolcat123.
+  #coolcat012.
   time.sleep(0.01)
   win32api.keybd_event(9,0,0,0)
 
